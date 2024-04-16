@@ -1,0 +1,133 @@
+
+/*--------------------------------------------ESTILOS ENCABEZADO----------------------------------*/
+
+button {
+    padding: 10px 20px; /* Padding para espacio interno */
+    margin: 5px; /* Margen entre los botones */
+    background-color: #56a2c3; /* Color de fondo */
+    color: rgb(245, 239, 239); /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de flecha */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para los botones cuando damos clic a estos */
+button:hover {
+    background-color: #6443c0; /* Color de fondo más oscuro */
+}
+
+.botones-container {
+    text-align: right; /*coloca  los botones horizontalmente a la derecha */
+    margin-bottom: 20px; /* Espacio entre los botones*/
+    background-color: #0f0a32;
+    padding: 20px 50px; /* espacio interno */
+}
+/*------------------ESTILOS BOBY--------------------------------------------------------*/
+/* Estilos para los contenedores de cada sección */
+.humanos {
+    background-color: #ff8c8c; 
+    border: 1px solid #ddd;
+
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
+}
+
+.primera {
+    background-color: #ffc266; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
+}
+
+.siglo {
+    background-color: #8cff66; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
+}
+
+.digitales {
+    background-color: #66b3ff; 
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff; 
+}
+
+/* Estilos para los contenedores de cada sección */
+.humanos,
+.primera,
+.siglo,
+.digitales {
+transition: transform 0.3s ease; 
+}
+
+/* cuando se pasa el ratón sobre el contenedor se mueve hacia arriba */
+.humanos:hover,
+.primera:hover,
+.siglo:hover,
+.digitales:hover {
+transform: translateY(-5px); 
+}
+
+
+/*--------------------------------------------- ESTILOS FOOTER--------------------------------------------------------*/
+/* Estilo para el footer */
+.footer {
+    background-color: #0f0a32; 
+    color: #fff; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Estilo para las columnas del footer */
+.footer-column {
+    flex: 1; 
+    margin-right: 20px;
+    text-align: justify;
+}
+
+/* Estilo para los títulos de las columnas del footer */
+.footer-column h3 {
+    font-size: 20px; 
+    margin-bottom: 15px; 
+}
+
+/* Estilo para los párrafos dentro de las columnas del footer */
+.footer-column p {
+    margin: 10px 0; 
+}
+
+/* Estilo para las listas dentro de las columnas del footer */
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para los elementos de lista dentro de las columnas del footer */
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+/* Estilo para los íconos sociales */
+.social-icons img {
+    width: 30px; 
+    margin-right: 20px; 
+}
+
+/* Estilo para el eslogan */
+.slogan {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 18px; 
+}

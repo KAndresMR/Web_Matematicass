@@ -1,0 +1,180 @@
+/*--------------------------------------------ESTILOS ENCABEZADO----------------------------------*/
+
+button {
+    padding: 10px 20px; /* Padding para espacio interno */
+    margin: 5px; /* Margen entre los botones */
+    background-color: #56a2c3; /* Color de fondo */
+    color: rgb(245, 239, 239); /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de flecha */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para los botones cuando damos clic a estos */
+button:hover {
+    background-color: #6443c0; /* Color de fondo más oscuro */
+}
+
+.botones-container {
+    text-align: right; /*coloca  los botones horizontalmente a la derecha */
+    margin-bottom: 20px; /* Espacio entre los botones*/
+    background-color: #0f0a32;
+    padding: 20px 50px; /* espacio interno */
+}
+
+/*----------------------------------------ESTILOS BOBY-----------------------------------------*/
+/*--------------------------------------IMAGEN USANDO DIMENSIONES--------------*/
+
+/* Estilos para el contenedor */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 70vh;
+}
+
+/* Estilos para el contenedor del logo */
+.parent {
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(224, 223, 222);
+    perspective: 500px;
+    animation: move 6s infinite alternate; /* Aplica la animación move */
+}
+
+/* Estilos para la imagen dentro del contenedor */
+.parent img {
+    width: 100%; /* Ajusta el tamaño de la imagen para que llene su contenedor */
+    height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
+    transform: rotateY(30deg); /* Aplica una rotación a la imagen para el efecto de perspectiva */
+}
+
+@keyframes move {
+    0% {transform: rotateX(0deg);}
+    100% {transform: rotateX(360deg);}
+}
+
+
+/* Estilos para el texto */
+h1{
+    text-align: left; /* Centra el texto horizontalmente */
+    margin-top: 20px;
+}
+h2 {
+    text-align: left; /* Centra el texto horizontalmente */
+}
+
+/*----------------------------------------ESTILOS BOBY 2-----------------------------------------*/
+.calculadora-digital {
+    text-align: center; 
+    width: 100%;
+    margin: 0 auto; 
+    background-color: #5040b896;
+
+}
+
+.calculadora-digital p {
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.6; 
+}
+
+.calculadora-digital p strong {
+    font-weight: bold; 
+}
+
+/*-----------------------------PARA LA HISTORIA DE LA CALCULADORA*----------------------*/
+.historia-calculadora {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    padding: 20px; 
+    background-color: #5040b896; 
+}
+
+/* Estilos para la imagen */
+.historia-calculadora img {
+    width: 200px; 
+    height: auto; 
+}
+
+/* Estilos para el texto */
+.historia-calculadora p {
+    text-align: justify;
+    line-height: 1.6; 
+}
+
+/* Estilos para el enlace */
+.historia-calculadora a {
+    display: inline-block; 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #0f7ef6a0; 
+    color: #fff; 
+    border-radius: 5px; 
+}
+
+/* Estilos para el enlace al pasar el ratón */
+.historia-calculadora a:hover {
+    background-color: #0056b3;
+}
+
+
+/*--------------------------------------------- ESTILOS FOOTER--------------------------------------------------------*/
+/* Estilo para el footer */
+.footer {
+    background-color: #0f0a32; 
+    color: #fff; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Estilo para las columnas del footer */
+.footer-column {
+    flex: 1; 
+    margin-right: 20px;
+    text-align: justify;
+}
+
+/* Estilo para los títulos de las columnas del footer */
+.footer-column h3 {
+    font-size: 20px; 
+    margin-bottom: 15px; 
+}
+
+/* Estilo para los párrafos dentro de las columnas del footer */
+.footer-column p {
+    margin: 10px 0; 
+}
+
+/* Estilo para las listas dentro de las columnas del footer */
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para los elementos de lista dentro de las columnas del footer */
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+/* Estilo para los íconos sociales */
+.social-icons img {
+    width: 30px; 
+    margin-right: 20px; 
+}
+
+/* Estilo para el eslogan */
+.slogan {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 18px; 
+}
